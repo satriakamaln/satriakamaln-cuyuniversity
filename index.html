@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Satria K. Parallax</title>
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <img src="/assets/icon/partner.png" alt="Logo" class="logo-img">
+            <h1 class="logo-title">SATRIA K.</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#jasa">Jasa</a></li>
+                <li><a href="mailto:satriakamaln@yahoo.co.id">Kontak</a></li>
+            </ul>
+        </nav>
+        <button class="btn-cta" onclick="redirIG()">Follow Saya</button>
+    </header>
+
+    <div class="container">
+        <div class="intro">
+            <p class="title">Hello, I'm Satria K. Norsaid !</p>
+            <p class="description">A Front End Developer from Banjarbaru</p>
+            <img src="/assets/foto/foto1.jpeg" alt="Satria K. Norsaid" class="img-foto">
+        </div>
+    </div>
+    <div class="parallax">
+        <div class="tentang">
+            <p class="title">Saya adalah programmer</p>
+            <p class="description">Ngoding aja dulu, jagonya belakangan</p>
+            <div class="mt-10">
+                <button class="btn-cta" onclick="redirWA()">Mari Kerjasama</button>
+            </div>
+        </div>
+        <div class="container">
+            <div class="card" id="jasa">
+                <div class="card-item">
+                    <img src="/assets/icon/24-hours.png" alt="icon1" class="icon">
+                    <p class="card-title">Always Ready!</p>
+                    <p class="card-description">Karena programmer tak pernah tidur</p>
+                </div>
+                <div class="card-item">
+                    <img src="/assets/icon/hot-deal.png" alt="icon2" class="icon">
+                    <p class="card-title">Good Price!</p>
+                    <p class="card-description">Harga terjangkau, kualitas terjamin</p>
+                </div>
+                <div class="card-item">
+                    <img src="/assets/icon/rating.png" alt="icon3" class="icon">
+                    <p class="card-title">134 Reviews</p>
+                    <p class="card-description">Jumlah reviews yang seperti kamu, gak ada 2-nya 😁</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <p>&copy; 2022 SATRIA K. NORSAID </p>
+    </footer>
+
+    <script>
+        function redirIG() {
+            window.location.href = 'https://instagram.com/satriakamaln';
+        }
+
+        function redirWA() {
+            window.location.href = 'https://wa.me/081234567890';
+        }
+    </script>
+</body>
+
+</html>
